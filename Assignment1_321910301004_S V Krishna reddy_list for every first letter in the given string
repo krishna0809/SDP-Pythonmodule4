@@ -1,0 +1,5 @@
+mystring = "Secret agents are super good at staying hidden."
+words = mystring.split()
+for char in words:
+    first_char_list = char[0]
+    print(list(first_char_list))
